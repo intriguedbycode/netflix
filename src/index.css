@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.front-image {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url("./nbackground2.png");
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  /* filter: brightness(50%); */
+}
+
+.nfLogo {
+  fill: #e50914;
+  line-height: normal;
+  height: 3%;
+  width: 12%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
+}
+
+select {
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  height: 2.2rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+option {
+  background-color: lightslategray;
+}
+
+.btn-md {
+  display: flex;
+  padding: 18px 18px;
+  font-size: 25px;
+  width: 66%;
+  text-align: left;
+  margin-bottom: 8px;
+  border: 0;
+  background-color: rgba(43, 42, 42) !important;
+}
+
+.btn-lg {
+  border: 0;
+  border-radius: 0 !important;
+  background-color: #e50914 !important;
+  padding: 18px 40px !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-sm {
+  background-color: #e50914 !important;
+  border: 0 !important;
+}
+
+.sign-in-btn {
+  width: 60%;
+  height: 2.2rem;
+  border-radius: 3px;
+  background-color: #e50914;
+  border: 0;
+  margin-right: 20px;
+  color: white;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 15%;
+}
+
+.form-control-lg {
+  border-radius: 0 !important;
+  padding: 21px 80px 21px 21px !important;
+}
+
+@media screen and (max-width: 365px) {
+  .col-auto {
+    max-width: 100% !important;
+    justify-content: center;
+  }
+
+  .btn-lg {
+    font-size: 5px;
+    border-radius: 4px;
+  }
+
+  .form-control-lg {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btn-lg {
+    padding: 5px 10px !important;
+    font-size: 10px !important;
+    justify-self: center !important;
+    margin-top: 10px !important;
+    margin-left: 100px !important;
+  }
+
+  .form-control-lg {
+    padding: 8px 60px 10px 8px !important;
+    align-self: center !important;
+  }
+
+  .btn-md {
+    width: 450px;
+  }
+
+  .nfLogo {
+    margin-top: 5px;
+    margin-left: 1px;
+    width: 30%;
+    height: 10%;
+  }
+
+  .fillbox {
+    margin-left: 10px;
+  }
+
+  h1 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 15px !important;
+    text-align: center;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+ul {
+  padding-top: 1%;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+a {
+  color: gray !important;
+  font-size: 15px;
+}
+
+.footer-select {
+  color: gray;
+  border-color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.text-lg-start {
+  background-color: black;
+}
+
+.story-card {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 220%;
+  font-weight: bold;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+.story-card-sub-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 100%;
+  font-weight: lighter;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.email-form-title {
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding-top: 3vw;
+}
+
+.submit-btn {
+  height: 50px;
+  border-radius: 3px;
+  background-color: #e50914;
+  border: 0;
+  color: white;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.screen-reader-text {
+  position: absolute;
+}
+
+.hero-card,
+.our-story-card-text {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.our-story-card-subtitle,
+.our-story-card-text {
+  font-size: 1.625rem;
+  font-weight: 400;
+  color: white;
+}
